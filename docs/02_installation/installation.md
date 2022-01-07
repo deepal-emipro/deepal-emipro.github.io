@@ -12,3 +12,5 @@ Add all of the folders in your addons directory and restart the Odoo server and 
 
 Now go to Website / Configuration / Settings. In Website settings, select a website in which you want to install Theme Clarico Vega, click on the PICK A THEME button. You will be redirected to the list of available themes. Click on Theme Clarico Vega to Install it on your website.
 
+![01_intro](02_installation/images/int.png)
+
