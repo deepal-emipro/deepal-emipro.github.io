@@ -2,7 +2,22 @@
 ---
 
 @import "{{ site.theme }}";
+ .div_ug_lf {
+        float: left;
+        width: 25%;
+      }
+      .div_ug_rh {
+        float: right;
+        width: 75%;
+      }
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.div_ug_lf ul li {list-style-type: none;}
 body{font-size: 14px;}
 p{font-size: 14px;}
 .main {

@@ -10,25 +10,7 @@
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
         
     {% include head-custom.html %}
-    
-    <style>
-      .column1 {
-        float: left;
-        width: 25%;
-      }
-      .column2 {
-        float: right;
-        width: 75%;
-      }
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-    </style>
-    
+     
   </head>
   <body>
     <div class="container-lg px-3 my-5 markdown-body">
@@ -67,8 +49,8 @@
                         </div>
       <section id="main-content">
         <div class="row">
-          <div class="column1">{% include toc.html html=content %}</div>
-          <div class="column2">{{ content }}</div>
+          <div class="div_ug_lf">{% include toc.html html=content %}</div>
+          <div class="div_ug_rh">{{ content }}</div>
         </div>
       </section>
       
