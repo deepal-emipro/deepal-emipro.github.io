@@ -1,0 +1,5 @@
+markdown: kramdown
+plugins:
+  - jekyll-toc
+
+theme: jekyll-theme-cayman
