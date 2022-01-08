@@ -8,7 +8,7 @@
       }
       .div_ug_rh {
         float: right;
-        width: 75%;
+        width: 66%;
       }
 
 /* Clear floats after the columns */
@@ -18,8 +18,12 @@
   clear: both;
 }
 .div_ug_lf ul li {list-style-type: none;}
-body{font-size: 14px;}
-p{font-size: 14px;}
+p{
+  font-size: 16px;
+  line-height: 170%;
+  word-spacing: 1px;
+  font-family: SourceSansPro-Light;
+}
 .main {
     width: 100%;
     display: inline-block;
@@ -51,9 +55,10 @@ p{font-size: 14px;}
     text-align: center;
 }
 body h2 {
-    font-family: SourceSansPro-Semibold;
     background: #f1f1f1;
     padding: 15px;
     border-radius: 5px;
+    color: #000;
+    font-weight: 700;
 }
 body img {    max-width: 90% !important;cursor: pointer;}
