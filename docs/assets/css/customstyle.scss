@@ -2,15 +2,14 @@
 ---
 
 @import "{{ site.theme }}";
- .div_ug_lf {
-        width: 350px;
-	height: calc(100vh - 90px);
-    top: 90px;
+ .div_ug_lf{
+	width: 350px;
+	height: auto;
+    top: 300px;
     padding-top: 2rem;
     padding-left: 2rem;
 	overflow-y: auto;
     position: fixed;
-    top: -100%;
     left: 0;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -25,7 +24,8 @@
     font-weight: 400;
     scrollbar-width: thin;
     scrollbar-color: #603c5e transparent;
-      }
+    float: left;
+}
       .div_ug_rh {
         float: left;
         width: 66%;
