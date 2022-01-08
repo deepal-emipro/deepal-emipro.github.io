@@ -10,7 +10,7 @@ After downloading the Theme Clarico Vega from the Odoo store, you will get the m
 Add all of the folders in your addons directory and restart the Odoo server and update your app list from the ‘Apps’ menu from the admin view.
 
 
-Now go to *Website / Configuration / Settings.* In Website settings, select a website in which you want to install Theme Clarico Vega, click on the *PICK A THEME* button. You will be redirected to the list of available themes. Click on *Theme Clarico Vega* to Install it on your website.
+Now go to **Website / Configuration / Settings.** In Website settings, select a website in which you want to install Theme Clarico Vega, click on the **PICK A THEME** button. You will be redirected to the list of available themes. Click on **Theme Clarico Vega** to Install it on your website.
 
 ![01_intro](02_installation/images/int.png)
 
@@ -23,4 +23,4 @@ These modules contain business logic and functional elements for all Emipro eCom
 
 
 *Changes Into Theme Clarico Vega: 
-Theme Clarico Vega’ contains UI elements. So if there are any updates related to UI or template then you need to upgrade the Theme. For that, navigate to *Website / Configuration / Settings* and select the website and click on *PICK A THEME* then update the theme.
+Theme Clarico Vega’ contains UI elements. So if there are any updates related to UI or template then you need to upgrade the Theme. For that, navigate to **Website / Configuration / Settings** and select the website and click on **PICK A THEME** then update the theme.
