@@ -1,4 +1,4 @@
-{:toc_sticky}
+{:toc}
 
 
 ## 1. Overview
