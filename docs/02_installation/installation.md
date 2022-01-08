@@ -1,4 +1,4 @@
-{:toc}
+{:toc_sticky}
 
 ## 2. INSTALL & UPDATE THE THEME
 Before installing the Theme Clarico Vega, make sure that you have downloaded the latest Odoo version as well as the latest version of Theme Clarico Vega along with its submodules.
