@@ -1,4 +1,4 @@
-{:toc_sticky}
+{:toc}
 
 ## 3. HOW TO CHANGE HEADER STYLE?
 To change the header style, open Website Editor from the Website & click on the Header portion as shown below screenshot.
