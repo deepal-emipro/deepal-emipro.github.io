@@ -33,5 +33,4 @@ To update the latest version of the theme, First, download it from Odoo Store an
 </div>
 
 
-> ####  @icn-notice
-> blah blah blah
+<i class='fas fa-bell'>fa-bell</i>
