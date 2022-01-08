@@ -22,6 +22,7 @@ To update the latest version of the theme, First, download it from Odoo Store an
 
 **b) Changes Into Theme Clarico Vega:** Theme Clarico Vega’ contains UI elements. So if there are any updates related to UI or template then you need to upgrade the Theme. For that, navigate to **Website / Configuration / Settings** and select the website and click on **PICK A THEME** then update the theme.
 
+<div class="info-note">
 **Technical Steps to Install/Update Theme Clarico Vega:
 
 1. Copy and paste theme_clarico_vega and emipro_theme_base code into your custom module (Add/Replace).
@@ -29,3 +30,4 @@ To update the latest version of the theme, First, download it from Odoo Store an
 3. Go to Apps -> Update List (Please start debug mode first otherwise it will not show this menu).
 4. Find emipro_theme_base module & Install/Upgrade that module.
 5. Install/Update a theme Clarico Vega from Website Configuration.
+</div>
