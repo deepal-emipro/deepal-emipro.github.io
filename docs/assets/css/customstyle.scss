@@ -67,13 +67,3 @@ body img {    max-width: 90% !important;cursor: pointer;}
     border: 1px solid #cccccc;
     padding: 5px 10px;
 }
-
-.info-note::before {
-    content: "\f129 \ NOTE";
-    font-family: FontAwesome, SourceSansPro-Bold;
-    padding-right: 10px;
-    padding-top: 5px;
-    word-spacing: 5px;
-    color: #2196F3;
-    font-size: 16px;
-}
