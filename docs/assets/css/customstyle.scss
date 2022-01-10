@@ -42,7 +42,8 @@
 .ept_cmp_logo{
     float: left;
     width: 100px;
-    margin-left: 35px;
+    margin-left: 35px !important;
+    border: 0px solid #fff !important;
 }
 .div_ug_lf ul li a {
     text-transform: capitalize;
