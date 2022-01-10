@@ -1,6 +1,6 @@
 {:toc}
 
-## 3. HOW TO CHANGE HEADER STYLE?
+## 3. How To Change Header Style?
 To change the header style, open Website Editor from the Website & click on the Header portion as shown below screenshot.
 
 
