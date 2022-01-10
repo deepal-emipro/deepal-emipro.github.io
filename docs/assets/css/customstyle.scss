@@ -4,9 +4,9 @@
 @import "{{ site.theme }}";
  .div_ug_lf{
 	width: 350px;
-	height: auto;
+	height: calc(100vh - 295px);
     top: 300px;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-left: 2rem;
 	overflow-y: auto;
     position: fixed;
@@ -15,7 +15,6 @@
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    padding-top: 4rem;
     padding-left: 1rem;
     background-color: white;
     z-index: 10;
