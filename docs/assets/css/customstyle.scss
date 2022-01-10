@@ -25,14 +25,15 @@
     scrollbar-color: #603c5e transparent;
     float: left;
 }
-      .div_ug_rh {
-        float: left;
-        width: 66%;
+.div_ug_rh {
+    float: left;
+    width: 66%;
 	left: 350px;
 	position: relative;
 	top: 300px;
-        z-index: 1;
-      }
+    z-index: 1;
+    padding: 0 15px;
+}
 .div_ug_lf ul li a {
     text-transform: capitalize;
     font-size: 16px;
