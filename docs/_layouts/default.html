@@ -1,120 +1,114 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-{% seo %}
-    
-    <link rel="stylesheet" href="/assets/css/customstyle.css" >
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-        
-    {% include head-custom.html %}
-     
-  </head>
-  <body>
-        <header class="o_main_header border-bottom navbar navbar-light navbar-expand-lg"><div class="o_logo_wrapper">
-          <a href="#" class="o_logo">
-              <img src="_static/img/logos/odoo_logo.svg" height="20" alt="Odoo">
-              <span>docs</span>
-          </a>
-    </div>
-    <div>Theme Vega</div>
-    <div id="searchbox" class="o_search_wrapper pe-lg-2" role="search">
-        <form class="o_search" action="search.html" method="get">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   {% seo %}
+   <link rel="stylesheet" href="/assets/css/customstyle.css" >
+   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+   {% include head-custom.html %}
+</head>
+<body>
+   <header class="o_main_header border-bottom navbar navbar-light navbar-expand-lg">
+      <div class="o_logo_wrapper">
+         <a href="#" class="o_logo">
+         <img src="assets/images/logo.png" height="20" alt="Odoo">
+         <span>docs</span>
+         </a>
+      </div>
+      <div>Theme Vega</div>
+      <div id="searchbox" class="o_search_wrapper pe-lg-2" role="search">
+         <form class="o_search" action="search.html" method="get">
             <input type="text" name="q" id="q" class="form-control rounded-pill" placeholder="What are you looking for?">
             <input type="hidden" name="area" value="default">
             <input type="hidden" name="check_keywords" value="yes">
             <button type="submit" class="btn"><i class="i-search"></i></button>
-        </form>
-    </div>
-    <script type="text/javascript">$('.o_search_wrapper').show(0);</script>
-    <div class="d-none d-lg-flex ms-auto"><div class="o_languages me-3">
-    </div><div class="o_versions row gx-2 me-3">
-        <div class="col align-self-center">
-            <label class="fw_bold small ms-2">Version</label>
-        </div>
-        <div class="col">
-            <div class="dropdown">
-                    <button class="btn border dropdown-toggle" id="versions" data-bs-toggle="dropdown">
-                        15.0 
-                    </button>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="versions">
-                        <li><a class="dropdown-item" href="https://www.odoo.com/documentation/14.0/">14.0</a></li>
-                        <li><a class="dropdown-item" href="https://www.odoo.com/documentation/13.0/">13.0</a></li>
-                </ul>
+         </form>
+      </div>
+      <script type="text/javascript">$('.o_search_wrapper').show(0);</script>
+      <div class="d-none d-lg-flex ms-auto">
+         <div class="o_languages me-3">
+         </div>
+         <div class="o_versions row gx-2 me-3">
+            <div class="col align-self-center">
+               <label class="fw_bold small ms-2">Version</label>
             </div>
-        </div>
-    </div>
-        <a class="btn btn-primary fw_semibold" href="https://odoo.com/trial">Try Odoo for FREE</a>
-    </div>
-            <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#o_main_toctree" aria-label="Toggle navigation">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </header>
-    <div class="container-lg px-3 my-5 markdown-body">
+            <div class="col">
+               <div class="dropdown">
+                  <button class="btn border dropdown-toggle" id="versions" data-bs-toggle="dropdown">
+                  15.0 
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="versions">
+                     <li><a class="dropdown-item" href="https://www.odoo.com/documentation/14.0/">14.0</a></li>
+                     <li><a class="dropdown-item" href="https://www.odoo.com/documentation/13.0/">13.0</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <a class="btn btn-primary fw_semibold" href="https://odoo.com/trial">Try Odoo for FREE</a>
+      </div>
+      <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#o_main_toctree" aria-label="Toggle navigation">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      </button>
+   </header>
+   <div class="container-lg px-3 my-5 markdown-body">
       <div class="main bg_image_docs doc_bg_container">
-                            <section class="container">
-
-                                <img class="img img-responsive ept_cmp_logo" src="/assets/images/company_logo.png" alt="Emipro" />
-                                <div class="text-center" style="margin-bottom: 35px;">
-                                    <img class="img img-responsive" src="/assets/images/user_guide_114.png" alt="Theme Clarico Vega" title="Theme Clarico Vega">
-                                    <h3 class="text-center">Theme Clarico Vega</h3>
-                                        <a class="button-gradient-grey" href="https://apps.odoo.com/apps/themes/15.0/theme_clarico_vega/" role="menuitem">Buy Theme</a>
-                                        <a class="button-gradient-grey" href="https://www.emiprotechnologies.com/requestquote" role="menuitem">Contact Us</a>
-                                    
-                                </div>
-                                
-                                <!-- <h4 class="text-center">USER GUIDE</h4> -->
-                                <!-- <h4 class="text-center">
-                                    Last updated:
-                                    <span>Nov 15, 2021</span>
-                                </h4> -->
-                                <!--<div class="dropdown versions">
-                                    <a href="#" class="dropdown-toggle btn emipro-sb col_wt" data-toggle="dropdown" style="background: linear-gradient(to right, #f09520, #ef7e22);">Applicable for
-                                        Odoo Version
-                                        15.0
-                                        
-                                            <span class="fa fa-angle-down" style="margin-left: 5px;"></span>
-                                    </a>
-                                    <ul class="dropdown-menu" role="menu">
-                                        
-                                            <li>
-                                                <a href="http://www.emiprotechnologies.com/docs/v14/theme-clarico-vega" role="menuitem">
-                                                    14.0
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="http://www.emiprotechnologies.com/docs/v13/theme-clarico-vega" role="menuitem">
-                                                    13.0
-                                                </a>
-                                            </li>
-                                        
-                                    </ul>
-                                </div>-->
-                            </section>
-                        </div>
+         <section class="container">
+            <img class="img img-responsive ept_cmp_logo" src="/assets/images/company_logo.png" alt="Emipro" />
+            <div class="text-center" style="margin-bottom: 35px;">
+               <img class="img img-responsive" src="/assets/images/user_guide_114.png" alt="Theme Clarico Vega" title="Theme Clarico Vega">
+               <h3 class="text-center">Theme Clarico Vega</h3>
+               <a class="button-gradient-grey" href="https://apps.odoo.com/apps/themes/15.0/theme_clarico_vega/" role="menuitem">Buy Theme</a>
+               <a class="button-gradient-grey" href="https://www.emiprotechnologies.com/requestquote" role="menuitem">Contact Us</a>
+            </div>
+            <!-- <h4 class="text-center">USER GUIDE</h4> -->
+            <!-- <h4 class="text-center">
+               Last updated:
+               <span>Nov 15, 2021</span>
+               </h4> -->
+            <!--<div class="dropdown versions">
+               <a href="#" class="dropdown-toggle btn emipro-sb col_wt" data-toggle="dropdown" style="background: linear-gradient(to right, #f09520, #ef7e22);">Applicable for
+                   Odoo Version
+                   15.0
+                   
+                       <span class="fa fa-angle-down" style="margin-left: 5px;"></span>
+               </a>
+               <ul class="dropdown-menu" role="menu">
+                   
+                       <li>
+                           <a href="http://www.emiprotechnologies.com/docs/v14/theme-clarico-vega" role="menuitem">
+                               14.0
+                           </a>
+                       </li>
+                       <li>
+                           <a href="http://www.emiprotechnologies.com/docs/v13/theme-clarico-vega" role="menuitem">
+                               13.0
+                           </a>
+                       </li>
+                   
+               </ul>
+               </div>-->
+         </section>
+      </div>
       <section id="main-content">
-        <div class="row">
+         <div class="row">
             <div style="position: relative;display: block;">
-          <div class="div_ug_lf">{% include toc.html html=content %}</div>
-          <div class="div_ug_rh">{{ content }}</div>
-          </div>
-        </div>
+               <div class="div_ug_lf">{% include toc.html html=content %}</div>
+               <div class="div_ug_rh">{{ content }}</div>
+            </div>
+         </div>
       </section>
-      
       {% if site.github.private != true and site.github.license %}
-      
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        This site is open source. {% github_edit_link "Improve this page" %}.
+         This site is open source. {% github_edit_link "Improve this page" %}.
       </div>
       {% endif %}
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-  </body>
+   </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+   <script>anchors.add();</script>
+</body>
 </html>
