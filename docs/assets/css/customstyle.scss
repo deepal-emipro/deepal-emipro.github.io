@@ -159,7 +159,6 @@ header.o_main_header {
     border-bottom: 1px solid #dee2e6 !important;
 }
 .ept_logo_wrapper{
-    margin-right: 3rem;
     width: calc(350px - 3rem);
     float: left;
 }
@@ -169,11 +168,13 @@ header.o_main_header .o_logo img {
 header.o_main_header .o_search_wrapper {
     flex-grow: 1;
     max-width: 500px;
-      display: flex;
+    display: flex;
     position: relative;
     opacity: 1;
     transition: opacity 0.3s;
     float: left;
+    padding-top: 10px;
+    padding-left: 15px;
 }
 .ept_prd_name {
     float: left;
