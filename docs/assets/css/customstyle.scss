@@ -59,7 +59,7 @@
 }
 .div_ug_lf ul li a {
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 35px;
     color: #000;
 }
@@ -164,7 +164,7 @@ header.o_main_header {
     float: left;
 }
 header.o_main_header .o_logo img {
-    height: 30px;
+    height: 50px;
 }
 header.o_main_header .o_search_wrapper {
     flex-grow: 1;
@@ -180,6 +180,7 @@ header.o_main_header .o_search_wrapper {
     font-size: 18px;
     font-weight: 500;
     color: black;
+    padding-top: 15px;
 }
 .rounded-pill {
     border-radius: 50rem !important;
