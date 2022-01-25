@@ -124,8 +124,11 @@ header.o_main_header {
 }
 @media (min-width: 1200px){
     header.o_main_header {
-        padding: 0 3rem 0 2rem;
+        padding: 1rem 3rem 0 2rem;
     }
+}
+.border-bottom {
+    border-bottom: 1px solid #dee2e6 !important;
 }
 .ept_logo_wrapper{
     margin-right: 3rem;
@@ -139,7 +142,12 @@ header.o_main_header .o_search_wrapper {
     flex-grow: 1;
     max-width: 500px;
 }
-.ept_prd_name {float: left;}
+.ept_prd_name {
+    float: left;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
 .rounded-pill {
     border-radius: 50rem !important;
 }
