@@ -113,7 +113,7 @@ body img {    max-width: 90% !important;cursor: pointer;}
 /* Header */
 header.o_main_header {
     width: 100%;
-    height: 50px;
+    height: 90px;
     position: fixed;
     top: 0;
     left: 0;
@@ -121,6 +121,13 @@ header.o_main_header {
     background-color: #ffffff;
     z-index: 10;
     padding: 0 1rem;
+}
+.ept_version_info{float: left;}
+.d-lg-flex {
+    display: flex !important;
+}
+.ms-auto {
+    margin-left: auto !important;
 }
 @media (min-width: 1200px){
     header.o_main_header {
