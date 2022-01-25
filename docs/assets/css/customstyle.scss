@@ -5,7 +5,7 @@
  .div_ug_lf{
 	width: 400px;
 	height: calc(100vh - 295px);
-    top: 300px;
+    top: 90px;
     padding-top: 1rem;
     padding-left: 2rem;
 	overflow-y: auto;
@@ -28,7 +28,7 @@
 .div_ug_rh {
     float: left;
     width: 66%;
-	left: 400px;
+	left: 90px;
 	position: relative;
 	top: 300px;
     z-index: 1;
@@ -148,6 +148,11 @@ header.o_main_header .o_logo img {
 header.o_main_header .o_search_wrapper {
     flex-grow: 1;
     max-width: 500px;
+      display: flex;
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.3s;
+    float: left;
 }
 .ept_prd_name {
     float: left;
@@ -173,12 +178,7 @@ header.o_main_header .o_search_wrapper {
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-header.o_main_header .o_search_wrapper {
-    display: flex;
-    position: relative;
-    opacity: 1;
-    transition: opacity 0.3s;
-}
+
 @media (min-width: 992px){
     .pe-lg-2 {
         padding-right: 0.5rem !important;
