@@ -27,10 +27,10 @@
 }
 .div_ug_rh {
     float: left;
-    width: 66%;
-	left: 90px;
+    max-width: calc(100vw - 350px);
+	left: 350px;
 	position: relative;
-	top: 300px;
+	top: 90px;
     z-index: 1;
     padding: 0 15px;
 }
