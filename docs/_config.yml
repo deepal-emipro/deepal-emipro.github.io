@@ -1,9 +1,6 @@
 markdown: kramdown
 plugins:
   - jekyll-toc
-layouts_dir: /theme/layout
-includes_dir: /theme/includes/
-keep_files:
-  - /theme/asset/
-env:
-  - THEME_DIR: /theme
+
+theme: jekyll-theme-cayman
+sticky: true
