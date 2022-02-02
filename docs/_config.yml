@@ -1,4 +1,5 @@
 markdown: kramdown
+theme: just-the-docs
 layouts_dir: /theme/layout
 includes_dir: /theme/includes/
 keep_files:
