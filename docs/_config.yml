@@ -1,5 +1,4 @@
 markdown: kramdown
-remote_theme: pmarsceill/just-the-docs
 layouts_dir: /theme/layout
 includes_dir: /theme/includes/
 keep_files:
